@@ -3,6 +3,9 @@ require 'fcntl'
 require 'optparse'
 require 'thread'
 
+#Credits:
+#http://eric.lubow.org/2010/ruby/multiple-input-locations-from-bash-into-ruby/
+
 class GenericInput
   attr_reader :queue
 
